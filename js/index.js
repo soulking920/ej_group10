@@ -5,7 +5,8 @@ $(function(){
 		$("ul.left_nav > li").removeClass("current");
 		$(this).addClass("current");
 		var url = $(this).attr("url");
-		$("#wrapper").load(url)
+		// 拼接时间戳的目的是为了消除缓存
+		$("#wrapper").load(url+"?time="+Math.random())
 	})
 
 	// 默认选中第一个li
