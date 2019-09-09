@@ -34,9 +34,8 @@ html,body,.container {
 	background-color: #ededed;
 }
 .left >ul.left_nav > li.current a{
-	color: #333;
+	color: #ccc;
 }
-
 .container > .right {
 	box-sizing: border-box;
 	height: 100%;
